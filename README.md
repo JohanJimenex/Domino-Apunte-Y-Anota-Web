@@ -16,13 +16,13 @@ Este es un emocionante proyecto de juego móvil desarrollado en Unity, donde el 
 - **Desafíos Constantes:** Enfréntate a una variedad de obstáculos y enemigos que te impedirán llegar más alto. ¡Solo los más habilidosos podrán superarlos todos!
 
 ## Capturas de Pantalla 📸
-
-![image](https://github.com/JohanJimenex/Unity-Game-2D-Gender-Reveal/assets/48848092/4baa5cde-9b66-4d46-937a-68d590a6dec2)
-![image](https://github.com/JohanJimenex/Unity-Game-2D-Gender-Reveal/assets/48848092/7a3c00d4-a56c-4796-808e-2304909ca1f4)
-![image](https://github.com/JohanJimenex/Unity-Game-2D-Gender-Reveal/assets/48848092/4a494ec6-01f2-44d4-9690-726e706b3b55)
-
-
-
+ 
+<img src="https://github.com/JohanJimenex/NolansGalaxyWeb/assets/48848092/84c8a99f-8567-438a-aa9e-e3bd00bfb016)" width="300">
+<img src="https://github.com/JohanJimenex/NolansGalaxyWeb/assets/48848092/599bd919-c8f1-47c9-9956-3aad6c17263a)" width="300">
+<img src="https://github.com/JohanJimenex/NolansGalaxyWeb/assets/48848092/3be72a74-fcd5-4fcb-b99c-24e1289a1b6e)" width="300">
+<img src="https://github.com/JohanJimenex/NolansGalaxyWeb/assets/48848092/3ed12c68-a078-4478-a374-cf4a7897bba8)" width="300">
+<img src="https://github.com/JohanJimenex/NolansGalaxyWeb/assets/48848092/f08fd29a-db71-4e12-9028-b2a8eebd3d14)" width="300">
+<img src="https://github.com/JohanJimenex/NolansGalaxyWeb/assets/48848092/01078428-ddd5-4b16-81cf-b3d349ba3c07)" width="300">
 
 ## Instalación 📲
 
