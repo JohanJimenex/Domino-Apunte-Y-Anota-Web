@@ -1,6 +1,4 @@
-# Unity Mobile Video Game - Go Up
-
-¡Bienvenido a **Go Up**! 🚀
+# **Nolans's Galaxy**! 🚀 - Unity Mobile Video Game
 
 Este es un emocionante proyecto de juego móvil desarrollado en Unity, donde el objetivo es simple pero adictivo: ¡ir subiendo lo más alto posible! En este juego vertical, los jugadores deberán enfrentarse a una serie de desafíos mientras escalan hacia el cielo, tratando de superar sus propias marcas y competir con amigos por la puntuación más alta.
 
