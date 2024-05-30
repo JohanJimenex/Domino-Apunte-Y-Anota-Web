@@ -1,7 +1,7 @@
 const ANDROID_STORE_URL =
-  "https://play.google.com/store/apps/dev?id=6933809884096731950";
+  "https://play.google.com/store/apps/details?id=com.jopamstudio.nolansgalaxy";
 const APPLE_STORE_URL =
-  "https://apps.apple.com/us/app/super-charadas-guessup/id1503858643?l=es";
+  "https://apps.apple.com/us/developer/johan-jimenez/id1503858642";
 
 function detectDevicePlatform() {
   const userAgent = navigator.userAgent || navigator.vendor || window.opera;
