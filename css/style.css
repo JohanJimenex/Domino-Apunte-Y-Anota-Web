@@ -14,28 +14,8 @@
   height: 100%;
 }
 
-.banana {
-  width: 15px;
-}
-
-.mangu {
-  color: rgb(255, 255, 255);
-}
-
-.games {
-  color: rgb(255, 255, 255);
-}
-
-.supercharadas {
-  width: 200px;
-}
-
-.pasos {
-  width: 800px;
-}
-
 .bg-my-dark {
-  background-color: #142040;
+  background-color: #142040 !important;
 }
 
 .navbar-nav .nav-item .nav-link {

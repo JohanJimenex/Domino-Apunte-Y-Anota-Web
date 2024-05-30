@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <!-- Etiquetas para mostrar descripción cuando se comparte la página -->
 
+    <!-- Etiquetas para mostrar descripción cuando se comparte la página -->
     <!-- para que aparesca en linkedin -->
     <meta property="og:title" content="Mangú Games Page" />
     <meta
@@ -29,11 +29,10 @@
     <title>Jopam Studio</title>
 
     <!-- FONT AWESOME CSS FOR ICON -->
-    <script
-      src="https://kit.fontawesome.com/e6cce0c361.js"
-      crossorigin="anonymous"
-      defer
-    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/bootstrap.css" />
   </head>
@@ -44,8 +43,8 @@
       <div class="container">
         <a class="navbar-brand" href="#">
           <img src="images/favicon.png" style="width: 1.7rem" />
-          <span class="mangu"><strong>Jopam</strong></span>
-          <span class="games"> <strong>Studio</strong></span>
+          <span class="text-white"><strong>Jopam</strong></span>
+          <span class="text-white"> <strong>Studio</strong></span>
         </a>
 
         <button
@@ -74,6 +73,9 @@
             <li class="nav-item">
               <a class="nav-link" href="#contacto">Contact</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/politica.html">Policy</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -82,22 +84,24 @@
     <!-- HEADER -->
     <header class="background">
       <div class="cover">
-        <div class="row p-5 d-flex justify-content-center">
+        <div class="row d-flex justify-content-center py-5">
           <!-- LEFT -->
           <div class="col-md-5 text-center align-self-center">
             <img
               class="img-fluid"
               style="width: 500px"
-              src="images/NolansGalaxyLogo.png"
+              src="images/nolans_galaxy_logo.png"
               alt="Mangu Games"
             />
           </div>
           <!-- RIGTH -->
-          <section class="col-md-5 text-white text-center align-self-center">
-            <h5>AVAILABLE ON:</h5>
+          <section
+            class="col-md-5 text-white text-center align-self-center mx-5"
+          >
+            <h5 class="mt-3">AVAILABLE ON:</h5>
 
             <a
-              href="https://play.google.com/store/apps/dev?id=6933809884096731950"
+              href="https://play.google.com/store/apps/details?id=com.jopamstudio.nolansgalaxy"
               target="_blank"
             >
               <img
@@ -132,22 +136,24 @@
     </header>
 
     <!-- SECTION -->
-    <section id="soporte" class="container-fluid bg-dark p-4">
-      <div class="col-7 m-auto">
-        <h2 class="text-white text-center">Support</h2>
+    <section id="soporte" class="container-fluid bg-my-dark p-0 m-0 row">
+      <div class="col-sm-6 mx-auto">
+        <h2 class="text-white text-center mt-3">Support</h2>
 
-        <h4 class="text-warning">¿How to play?</h4>
+        <h4 class="text-warning text-center">¿How to play?</h4>
+
         <ul class="text-white">
           <li>Tap the screen to make the astronaut go up</li>
           <li>Swipe sideways on the screen to move</li>
           <li>Dodge enemies to prevent them from harming you</li>
           <li>Reach maximum height to break world records</li>
         </ul>
+
         <div class="row justify-content-center">
-          <div class="my-1">
+          <div class="my-1 mb-4">
             <img
-              class="img-fluid pasos"
-              src="pasos.png"
+              style="width: 10rem"
+              src="images/instructions.png"
               alt="Pasos para jugar"
             />
           </div>
@@ -155,37 +161,57 @@
       </div>
     </section>
 
-    <section id="acerca" class="container p-5 w-50">
-      <div class="row justify-content-center card text-center">
-        <div class="card-header">
+    <section class="container m-5 mx-auto">
+      <div class="justify-content-center card text-center">
+        <div class="bg-my-dark card-header">
           <img
             class="img-fluid my-3"
-            style="width: 100px; margin: auto"
-            src="perfil.png"
-            alt="Perfil"
+            style="width: 20rem; margin: auto"
+            src="images/jopam_studio_logo.png"
+            alt="Jopam Studio"
           />
-          <h5>Mangu Games</h5>
         </div>
 
         <div class="card-body">
-          <p>
-            Actualmente soy un desarrollador independiente de aplicaciones
-            ubicado en Republica Dominicana, enfocado en aplicaciones divertidas
-            y útiles para plataformas Android y IOS.
-          </p>
+          <!-- SECTION -->
+          <section
+            id="social-media"
+            class="container-fluid p-4 row text-center"
+          >
+            <div class="col-2 col-md-3 p-0 mx-auto">
+              <a href="https://github.com/johanjimenex" target="_blank">
+                <i class="fab fa-github fa-3x"></i>
+              </a>
+            </div>
+            <div class="col-2 col-md-3 p-0 mx-auto">
+              <a href="https://linkedin.com/in/johanjimenex" target="_blank">
+                <i class="fab fa-linkedin fa-3x"></i>
+              </a>
+            </div>
+            <div class="col-2 col-md-3 p-0 mx-auto">
+              <a href="https://instagram.com/johanjimenex" target="_blank">
+                <i class="fab fa-instagram fa-3x"></i>
+              </a>
+            </div>
+            <div class="col-2 col-md-3 p-0 mx-auto">
+              <a href="https://twitter.com/johanjimenex" target="_blank">
+                <i class="fab fa-twitter fa-3x"></i>
+              </a>
+            </div>
+          </section>
         </div>
       </div>
     </section>
 
     <article id="contacto" class="bg-light py-5 text-center">
-      <h3>Contacto</h3>
-      <h4>mangugamesrd@gmail.com</h4>
+      <h3>Contact</h3>
+      <h4>johan.jimenez.23@gmail.com</h4>
     </article>
 
     <footer class="bg-dark text-white text-center p-2">
       <p class="mb-0">
-        © 2019 - 2020 Mangu Games RD. Todos los Derechos Reservados.
-        <a href="/pages/politica.html"> Politica de privacidad</a>
+        © 2024 Jopam Studio. All Rights Reserved.
+        <a href="/pages/policy.html">Privacy Policy</a>
       </p>
     </footer>
 
