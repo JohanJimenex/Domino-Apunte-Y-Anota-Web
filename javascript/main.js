@@ -22,3 +22,4 @@ function detectDevicePlatform() {
 }
 
 window.onload = detectDevicePlatform;
+
