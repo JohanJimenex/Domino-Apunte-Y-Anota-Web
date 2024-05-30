@@ -34,15 +34,16 @@
       crossorigin="anonymous"
       defer
     ></script>
-    <link rel="stylesheet" href="css/mystyle.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/bootstrap.css" />
   </head>
 
   <body>
     <!-- NAVA BAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg bg-my-dark">
       <div class="container">
         <a class="navbar-brand" href="#">
+          <img src="images/favicon.png" style="width: 1.7rem" />
           <span class="mangu"><strong>Jopam</strong></span>
           <span class="games"> <strong>Studio</strong></span>
         </a>
@@ -62,16 +63,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Inicio</a>
+              <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#soporte">Soporte</a>
+              <a class="nav-link" href="#soporte">Support</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#acerca">Acerca de nosotros</a>
+              <a class="nav-link" href="#acerca">About me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contacto">Contacto</a>
+              <a class="nav-link" href="#contacto">Contact</a>
             </li>
           </ul>
         </div>
@@ -82,50 +83,7 @@
     <header class="background">
       <div class="cover">
         <div class="row p-5 d-flex justify-content-center">
-          <div class="col-md-5 text-white text-center align-self-center">
-            <h5>DISPONIBLE PARA:</h5>
-
-            <a
-              href="https://play.google.com/store/apps/dev?id=6933809884096731950"
-              target="_blank"
-            >
-              <img
-                class="img-fluid w-25"
-                src="playstore.png"
-                alt="Play Store"
-              />
-            </a>
-            <a
-              href="https://www.amazon.com/s?rh=n%3A2350149011%2Cp_4%3AJohanPlatano"
-              target="_blank"
-            >
-              <img class="img-fluid w-25" src="amazon.png" alt="Amazon Store" />
-            </a>
-            <a
-              href="https://apps.apple.com/us/app/super-charadas-guessup/id1503858643?l=es"
-            >
-              <img class="img-fluid w-25" src="apple.png" alt="Apple Store" />
-            </a>
-
-            <img
-              class="img-fluid supercharadas"
-              src="iconsc.png"
-              alt="Super Charadas"
-            />
-            <img
-              class="img-fluid supercharadas"
-              src="imaiconsupercharadas.png"
-              alt="Guess the Word"
-            />
-            <h3>Nolan's Galaxy</h3>
-            <p>
-              Es un divertido juego multijugador para jugadores de todas las
-              edades. Adivina la palabra que se muestra en el teléfono a partir
-              de las pistas que tus amigos te dan al describir, bailar, cantar,
-              gritar o actuar.
-            </p>
-          </div>
-
+          <!-- LEFT -->
           <div class="col-md-5 text-center align-self-center">
             <img
               class="img-fluid"
@@ -134,32 +92,56 @@
               alt="Mangu Games"
             />
           </div>
+          <!-- RIGTH -->
+          <section class="col-md-5 text-white text-center align-self-center">
+            <h5>AVAILABLE ON:</h5>
+
+            <a
+              href="https://play.google.com/store/apps/dev?id=6933809884096731950"
+              target="_blank"
+            >
+              <img
+                class="img-fluid w-25"
+                src="images/playstore.png"
+                alt="Play Store"
+              />
+            </a>
+
+            <a
+              href="https://apps.apple.com/us/app/super-charadas-guessup/id1503858643?l=es"
+            >
+              <img
+                class="img-fluid w-25"
+                src="images/apple.png"
+                alt="Apple Store"
+              />
+            </a>
+            <br />
+            <br />
+            <h4>Nolan's Galaxy</h4>
+            <p>
+              Nolan's Galaxy is a 2D arcade game with pixel art visuals where
+              you step into the shoes of an astronaut on a space mission. Your
+              goal is to dodge robots as you traverse the cosmos, all in an
+              effort to achieve the highest distance and break the leaderboard
+              record to save your floating Pug.
+            </p>
+          </section>
         </div>
       </div>
     </header>
 
     <!-- SECTION -->
     <section id="soporte" class="container-fluid bg-dark p-4">
-      <div class="p-5 col-7 m-auto">
-        <h2 class="text-white text-center">SOPORTE</h2>
+      <div class="col-7 m-auto">
+        <h2 class="text-white text-center">Support</h2>
 
-        <h4 class="text-warning">¿Como jugar?</h4>
+        <h4 class="text-warning">¿How to play?</h4>
         <ul class="text-white">
-          <li>
-            Coloca el teléfono en tu frente y adivina la palabra mientras tus
-            amigos te dan pistas, puede decidir entre: hablar, imitar, hacer
-            gestos o gritar, pero sin decir la palabra
-          </li>
-          <li>Si adivina la palabra, incline el teléfono hacia abajo.</li>
-          <li>
-            Para pasar la palabra que no puede adivinar, incline el teléfono
-            hacia arriba.
-          </li>
-          <li>
-            Trata de adivinar tantas palabras como puedas antes de que se acabe
-            el tiempo.
-          </li>
-          <li>¡También puedes inventar tus propias reglas!</li>
+          <li>Tap the screen to make the astronaut go up</li>
+          <li>Swipe sideways on the screen to move</li>
+          <li>Dodge enemies to prevent them from harming you</li>
+          <li>Reach maximum height to break world records</li>
         </ul>
         <div class="row justify-content-center">
           <div class="my-1">
@@ -195,41 +177,18 @@
       </div>
     </section>
 
-    <section id="contacto" class="bg-light py-5 text-center">
+    <article id="contacto" class="bg-light py-5 text-center">
       <h3>Contacto</h3>
       <h4>mangugamesrd@gmail.com</h4>
-    </section>
+    </article>
 
     <footer class="bg-dark text-white text-center p-2">
       <p class="mb-0">
         © 2019 - 2020 Mangu Games RD. Todos los Derechos Reservados.
-        <a href="/politica.html"> Politica de privacidad</a>
+        <a href="/pages/politica.html"> Politica de privacidad</a>
       </p>
     </footer>
 
-    <div id="sfcxynada5ylsnxuhjbcfugfhgaqmp5gjsa"></div>
-
-    <script>
-      //Detecta si es iphone o android y redirecciona
-      var userAgent = navigator.userAgent || navigator.vendor || window.opera;
-
-      function comprobarDispositivo() {
-        if (/android/i.test(userAgent)) {
-          window.location.href =
-            "https://play.google.com/store/apps/dev?id=6933809884096731950";
-        }
-
-        if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-          window.location.href =
-            "https://apps.apple.com/us/app/super-charadas-guessup/id1503858643?l=es";
-        }
-      }
-
-      comprobarDispositivo();
-
-      document.getElementById("app").addEventListener("click", () => {
-        comprobarDispositivo();
-      });
-    </script>
+    <script src="/javascript/main.js"></script>
   </body>
 </html>

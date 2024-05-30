@@ -10,7 +10,7 @@
 }
 
 .cover {
-  background: #12202d;
+  background: #00000068;
   height: 100%;
 }
 
@@ -32,4 +32,12 @@
 
 .pasos {
   width: 800px;
+}
+
+.bg-my-dark {
+  background-color: #142040;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #cbf4ff !important;
 }
