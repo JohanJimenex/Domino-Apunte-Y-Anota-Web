@@ -1,10 +1,10 @@
-const ANDROID_STORE_URL =
-  "https://play.google.com/store/apps/details?id=com.jopamstudio.nolansgalaxy";
-const APPLE_STORE_URL =
-  "https://apps.apple.com/us/app/nolans-galaxy/id6503222887";
-
 function detectDevicePlatform() {
   const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+  const ANDROID_STORE_URL =
+    "https://play.google.com/store/apps/details?id=com.jopamstudio.nolansgalaxy";
+  const APPLE_STORE_URL =
+    "https://apps.apple.com/us/app/nolans-galaxy/id6503222887";
 
   setTimeout(() => {
     if (/android/i.test(userAgent)) {
@@ -21,4 +21,15 @@ function detectDevicePlatform() {
   console.warn("Unsupported platform");
 }
 
-window.onload = detectDevicePlatform;
+function createContactInfo() {
+  const h6 = document.createElement("h6");
+  const emailText = document.createTextNode("johan.jimenez.23@gmail.com");
+  h6.appendChild(emailText);
+  const contactElement = document.getElementById("contact");
+  contactElement.appendChild(h6);
+}
+
+window.onload = function () {
+  detectDevicePlatform();
+  createContactInfo();
+};
