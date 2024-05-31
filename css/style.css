@@ -37,3 +37,11 @@ body {
 .navbar-nav .nav-item .nav-link {
   color: #cbf4ff !important;
 }
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.cursor-pointer:hover {
+  opacity: 0.8;
+}

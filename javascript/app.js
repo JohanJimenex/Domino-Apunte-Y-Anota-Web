@@ -1,7 +1,7 @@
 const ANDROID_STORE_URL =
   "https://play.google.com/store/apps/details?id=com.jopamstudio.nolansgalaxy";
 const APPLE_STORE_URL =
-  "https://apps.apple.com/us/developer/johan-jimenez/id1503858642";
+  "https://apps.apple.com/us/app/nolans-galaxy/id6503222887";
 
 function detectDevicePlatform() {
   const userAgent = navigator.userAgent || navigator.vendor || window.opera;
