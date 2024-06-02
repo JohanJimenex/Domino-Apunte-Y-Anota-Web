@@ -29,7 +29,28 @@ function createContactInfo() {
   contactElement.appendChild(h6);
 }
 
+async function visitsCounter() {
+  const response = await fetch(
+    "https://unity-nolan-s-galaxy-default-rtdb.firebaseio.com/visits.json"
+  );
+  const data = await response.json();
+
+  const counter = Object.keys(data).length;
+
+  await fetch(
+    "https://unity-nolan-s-galaxy-default-rtdb.firebaseio.com/visits.json",
+    {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ counter: counter + 1 }),
+    }
+  );
+}
+
 window.onload = function () {
   detectDevicePlatform();
   createContactInfo();
+  visitsCounter();
 };
