@@ -2,11 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-@font-face {
-  font-family: "DogicaPixel";
-  src: url("dogicapixel.ttf") format("truetype");
+  font-size: 18px;
 }
 
 body {
@@ -31,11 +27,19 @@ body {
 }
 
 .bg-my-dark {
-  background-color: #142040 !important;
+  background-color: #2f0139 !important;
 }
 
 .navbar-nav .nav-item .nav-link {
   color: #cbf4ff !important;
+}
+
+.app-icon {
+  /* background-color: #000; */
+  max-width: 100%;
+  height: auto;
+  border-radius: 5.56rem; /* Ajusta el valor según el nivel de redondez que desees */
+  box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5);
 }
 
 .cursor-pointer {
@@ -44,4 +48,31 @@ body {
 
 .cursor-pointer:hover {
   opacity: 0.8;
+}
+
+#applications {
+  background-color: #f8f9fa;
+  padding: 2rem 0;
+}
+
+.app-box {
+  background-color: #ffffff;
+  border-radius: 15px;
+  /* box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1); */
+  padding: 1rem;
+  text-align: center;
+  width: 150px;
+}
+
+.app-box .app-icon {
+  border-radius: 30px;
+  width: 100%;
+  height: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.app-box p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #333;
 }
