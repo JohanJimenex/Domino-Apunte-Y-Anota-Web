@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eliminación de Datos - Unity</title>
+    <link rel="stylesheet" href="userdata.css" />
+  </head>
+  <body>
+    <!-- Floating particles -->
+    <div class="particles"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="#" class="nav-button" onclick="goHome()">
+          <svg class="icon" viewBox="0 0 24 24">
+            <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />
+          </svg>
+          Inicio
+        </a>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+      <div class="card">
+        <div style="text-align: center; margin-bottom: 1rem">
+          <img
+            class="img-fluid my-3"
+            style="
+              width: 20rem;
+              margin: auto;
+              filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.4));
+            "
+            src="../../images/jopam_studio_logo.png"
+            alt="Jopam Studio"
+          />
+        </div>
+
+        <div class="header">
+          <h1>Eliminación de Datos</h1>
+          <p>
+            Esta aplicación utiliza los servicios de Unity. Si deseas eliminar
+            tus datos, debes contactar directamente con Unity.
+          </p>
+        </div>
+
+        <div class="content">
+          <div class="section">
+            <h2>
+              <svg class="icon" viewBox="0 0 24 24">
+                <path
+                  d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+                />
+              </svg>
+              Contactar a Unity para Eliminar Datos
+            </h2>
+            <p>
+              Para solicitar la eliminación de tus datos personales, debes
+              contactar directamente con el equipo de protección de datos de
+              Unity. Ellos son los responsables de procesar tu solicitud según
+              las leyes de privacidad aplicables.
+            </p>
+
+            <div
+              style="
+                background: rgba(102, 126, 234, 0.1);
+                padding: 1rem;
+                border-radius: 10px;
+                margin: 1rem 0;
+                border: 1px dashed #667eea;
+              "
+            >
+              <p
+                style="
+                  margin: 0;
+                  font-weight: 500;
+                  color: #667eea;
+                  font-size: 1.1rem;
+                "
+              >
+                📧 Correo de contacto:
+              </p>
+              <p
+                style="
+                  margin: 0.5rem 0;
+                  font-family: monospace;
+                  font-size: 1.1rem;
+                  color: #333;
+                  background: white;
+                  padding: 0.5rem;
+                  border-radius: 5px;
+                  border: 1px solid #ddd;
+                "
+              >
+                DPO@unity3d.com
+              </p>
+            </div>
+
+            <a
+              href="mailto:DPO@unity3d.com?subject=Solicitud de Eliminación de Datos&body=Hola, me gustaría solicitar la eliminación de mis datos personales. Por favor, procesen mi solicitud según el RGPD y las leyes de privacidad aplicables."
+              class="email-link"
+            >
+              <svg class="icon" viewBox="0 0 24 24">
+                <path
+                  d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.89 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
+                />
+              </svg>
+              Enviar Correo a Unity
+            </a>
+          </div>
+
+          <div class="section">
+            <h2>
+              <svg class="icon" viewBox="0 0 24 24">
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+                />
+              </svg>
+              Políticas de Privacidad de Unity
+            </h2>
+            <p>
+              Para obtener información detallada sobre cómo Unity maneja los
+              datos, sus prácticas de privacidad y tus derechos como usuario,
+              puedes consultar sus políticas oficiales:
+            </p>
+
+            <div class="links-section">
+              <a
+                href="https://unity.com/legal/privacy-policy"
+                target="_blank"
+                class="policy-link"
+              >
+                <svg class="icon" viewBox="0 0 24 24">
+                  <path
+                    d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z"
+                  />
+                </svg>
+                Política de Privacidad de Unity
+              </a>
+
+              <a
+                href="https://unity.com/legal/game-player-and-app-user-privacy-policy#_Contact_Us"
+                target="_blank"
+                class="policy-link"
+              >
+                <svg class="icon" viewBox="0 0 24 24">
+                  <path
+                    d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z"
+                  />
+                </svg>
+                Privacidad de Jugadores y Apps
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="userdata.js"></script>
+  </body>
+</html>
